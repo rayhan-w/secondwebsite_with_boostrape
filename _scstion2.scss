@@ -1,0 +1,70 @@
+.row{
+
+    margin-left: 70px;
+
+.box1{
+   @include boxes;
+
+   i{
+    @include icon;
+
+   }
+
+   h4{
+    position: relative;
+    left: 10px;
+   }
+
+   p{
+    position: relative;
+    left: 10px;
+    color: #869ab8!important;
+   }
+
+}
+
+
+.box2{
+    @include boxes;
+ 
+    i{
+     @include icon;
+ 
+    }
+ 
+    h4{
+     position: relative;
+     left: 10px;
+    }
+ 
+    p{
+     position: relative;
+     left: 10px;
+     color: #869ab8!important;
+    }
+ 
+ }
+
+ 
+.box3{
+    @include boxes;
+ 
+    i{
+     @include icon;
+ 
+    }
+ 
+    h4{
+     position: relative;
+     left: 10px;
+    }
+ 
+    p{
+     position: relative;
+     left: 10px;
+     color: #869ab8!important;
+    }
+ 
+ }
+
+}

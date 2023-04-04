@@ -1,0 +1,51 @@
+
+.bg-light {
+    background-color: white!important;
+  }
+  
+
+.navbar-light .navbar-brand {
+    color: blue;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.navbar-light .navbar-nav .active  .nav-link {
+    color:  #808B96 ; 
+    a:hover{
+        background-color: white;
+        color: red!important;
+    }
+      
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+   
+    padding-left: 80px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #808B96 ;
+    a:hover{
+        background-color: white;
+        color: red !important;
+    }
+  }
+  .navbar-light .navbar-nav .nav-link.disabled {
+    color: #808B96 ;
+    a:hover{
+        background-color: white;
+        color: red; 
+    }
+    
+  }
+
+.buttonbox{
+    padding-left: 100px;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+}

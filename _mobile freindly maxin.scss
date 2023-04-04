@@ -1,0 +1,14 @@
+@mixin boxes{
+    height: map-get($box, height );
+    width: map-get($box, width );
+    background-color: map-get($box, bc );
+    border: map-get($box, bor );
+}
+
+@mixin icon{
+    font-size: map-get($i, fsi );
+    position: map-get($i, pos );
+    top: map-get($i, to );
+    left: map-get($i, lef );
+    color: map-get($i, col );
+}

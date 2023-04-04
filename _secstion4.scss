@@ -1,0 +1,89 @@
+.row{
+    .left2{
+        h2{
+            color: black;
+            font-size: 30px;
+        }
+
+        span{
+            color: blue;
+        }
+
+        h5{
+            color: #869ab8!important;
+            font-size: 22px;
+        }
+
+        .box2{
+
+            position: relative;
+            
+            right: 10px;
+            h4{
+                position: relative;
+                left: 60px;
+                bottom: 60px;
+                font-size: 25px;
+            }
+
+            p{
+                position: relative;
+                left: 60px;
+                bottom: 50px;
+                font-size: 18px;
+            }
+        }
+
+        .box3{
+            position: relative;
+            bottom: 20px;
+            right: 10px;
+            h4{
+                position: relative;
+                left: 60px;
+                bottom: 60px;
+                font-size: 25px;
+            }
+
+            p{
+                position: relative;
+                left: 60px;
+                bottom: 50px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .right2{
+        img{
+            height: 600px;
+            width: 600px;
+            transform:rotateY(-35deg) rotateX(15deg);
+            position: relative;
+            left: 50px;
+            
+        }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+
+    
+    body{
+        overflow-x: hidden;
+        height: 100vh;
+        margin: 0;
+    }
+    .row{
+        .right2{
+
+            img{
+                height: 50px;
+                width: 50px;
+            }
+
+        }
+    }
+}

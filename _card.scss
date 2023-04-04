@@ -1,0 +1,224 @@
+
+
+
+
+.card{
+    height: 650px;
+    width: 410px;
+    border-radius: 5px;
+
+
+    img{
+        height: 334px;
+        width: 410px;
+
+    }
+
+    .card-body{
+
+        label{
+            position: relative;
+            top: 10px;
+           
+        
+        }
+        input[type="text"],
+        input[type="password"]{
+            height: 30px;
+            width: 340px;
+            padding: 5px;
+            background: none;
+            border: none;
+             border-bottom: 1px solid #ddd; 
+            outline: none;
+            position: relative;
+            left: 2px;
+        }
+        
+
+    }
+
+    .buttonbox{
+        position: relative;
+        top: 10px;
+        right: 100px;
+         .btn-primary{
+            width: 340px;
+            height: 50px;
+            background-color: #42ba96;
+            border: #42ba96;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            &:hover{
+                background-color: green;
+            }
+         }
+    }
+
+}
+
+
+.box5{
+    h3{
+        font-size: 30px;
+        position: relative;
+        top: 110px;
+    }
+    span{
+        color: green;
+    }
+
+    p{
+        position: relative;
+        top: 120px;
+        text-align: start;
+      color: #869ab8!important;
+     font-size: 20px;
+}
+
+}
+
+
+.box6{
+    position: relative;
+    right: 10px;
+   .subbox1{
+    height: 30px;
+    width:150px;
+   
+ 
+   
+        i{
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            font-size: 15px;
+            position: relative;
+            left: 2px;
+            bottom: 2px;
+            background-color: #42ba96;
+            color: green;
+
+
+        }
+
+        span{
+            position: relative;
+            bottom: 5px;
+            left: 40px;
+            color: #42ba96!important;
+        }
+    }
+
+
+    .subbox2{
+        height: 30px;
+        width:150px;
+        position: relative;
+        bottom: 30px;
+        left: 200px;
+       
+            i{
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+                font-size: 15px;
+                position: relative;
+                left: 2px;
+                bottom: 2px;
+                background-color: #42ba96;
+                color: green;
+    
+    
+            }
+    
+            span{
+                position: relative;
+                bottom: 5px;
+                left: 40px;
+                color: #42ba96!important;
+            }
+        }
+
+        .subbox3{
+            height: 30px;
+            width:150px;
+           
+           
+                i{
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 10px;
+                    font-size: 15px;
+                    position: relative;
+                    left: 2px;
+                    bottom: 2px;
+                    background-color: #42ba96;
+                    color: green;
+        
+        
+                }
+        
+                span{
+                    position: relative;
+                    bottom: 5px;
+                    left: 40px;
+                    color: #42ba96!important;
+                }
+            }
+
+            .subbox4{
+                height: 30px;
+                width:150px;
+                position: relative;
+                bottom: 30px;
+                left: 200px;
+               
+                    i{
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 10px;
+                        font-size: 15px;
+                        position: relative;
+                        left: 2px;
+                        bottom: 2px;
+                        background-color: #42ba96;
+                        color: green;
+            
+            
+                    }
+            
+                    span{
+                        position: relative;
+                        bottom: 5px;
+                        left: 40px;
+                        color: #42ba96!important;
+                    }
+                }
+
+   }
+
+   @media (min-width: 576px) and (max-width: 767px){
+   
+   .row{
+   
+    .box6{
+        .subbox1{
+            width: 200px;
+        }
+
+        .subbox2{
+            width: 200px;
+        }
+
+        .subbox3{
+            width: 200px;
+        }
+
+        .subbox4{
+            width: 200px;
+        }
+    }
+   }
+}

@@ -1,0 +1,474 @@
+.row {
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.row .left img {
+  height: 331px;
+  width: 500px;
+}
+.row .right {
+  position: relative;
+}
+.row .right .h1 {
+  text-align: center;
+  font-size: 45px;
+}
+.row .right .h1 span {
+  color: #335eea !important;
+}
+.row .right p {
+  text-align: center;
+  font-size: 20px;
+  color: #869ab8 !important;
+}
+.row .right button {
+  position: relative;
+  left: 80px;
+  height: 60px;
+  width: 200px;
+}
+.row .right button i {
+  position: relative;
+  top: 3px;
+  left: 5px;
+}
+.row .right .btn-secondary {
+  margin-left: 10px;
+  color: #335eea;
+  background-color: rgba(51, 94, 234, 0.1);
+  border-color: rgba(51, 94, 234, 0.1);
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+  }
+  .row .left img {
+    height: 231px;
+    width: 300px;
+  }
+  .row .right .h1 {
+    font-size: 30px;
+  }
+  .row .right button {
+    height: 60px;
+    width: 100px;
+  }
+}
+.row {
+  margin-left: 70px;
+}
+.row .box1 {
+  height: 220px;
+  width: 350px;
+  background-color: var(--bs-body-bg);
+  border: 1px solid 1px solid rgba(248, 238, 238, 0.925);
+}
+.row .box1 i {
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: blue;
+}
+.row .box1 h4 {
+  position: relative;
+  left: 10px;
+}
+.row .box1 p {
+  position: relative;
+  left: 10px;
+  color: #869ab8 !important;
+}
+.row .box2 {
+  height: 220px;
+  width: 350px;
+  background-color: var(--bs-body-bg);
+  border: 1px solid 1px solid rgba(248, 238, 238, 0.925);
+}
+.row .box2 i {
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: blue;
+}
+.row .box2 h4 {
+  position: relative;
+  left: 10px;
+}
+.row .box2 p {
+  position: relative;
+  left: 10px;
+  color: #869ab8 !important;
+}
+.row .box3 {
+  height: 220px;
+  width: 350px;
+  background-color: var(--bs-body-bg);
+  border: 1px solid 1px solid rgba(248, 238, 238, 0.925);
+}
+.row .box3 i {
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: blue;
+}
+.row .box3 h4 {
+  position: relative;
+  left: 10px;
+}
+.row .box3 p {
+  position: relative;
+  left: 10px;
+  color: #869ab8 !important;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.navbar-light .navbar-brand {
+  color: blue;
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+  color: #808B96;
+}
+.navbar-light .navbar-nav .active .nav-link a:hover {
+  background-color: white;
+  color: red !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #808B96;
+}
+.navbar-light .navbar-nav .nav-link a:hover {
+  background-color: white;
+  color: red !important;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: #808B96;
+}
+.navbar-light .navbar-nav .nav-link.disabled a:hover {
+  background-color: white;
+  color: red;
+}
+
+.buttonbox {
+  padding-left: 100px;
+}
+
+.card {
+  height: 650px;
+  width: 410px;
+  border-radius: 5px;
+}
+.card img {
+  height: 334px;
+  width: 410px;
+}
+.card .card-body label {
+  position: relative;
+  top: 10px;
+}
+.card .card-body input[type=text],
+.card .card-body input[type=password] {
+  height: 30px;
+  width: 340px;
+  padding: 5px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  position: relative;
+  left: 2px;
+}
+.card .buttonbox {
+  position: relative;
+  top: 10px;
+  right: 100px;
+}
+.card .buttonbox .btn-primary {
+  width: 340px;
+  height: 50px;
+  background-color: #42ba96;
+  border: #42ba96;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.card .buttonbox .btn-primary:hover {
+  background-color: green;
+}
+
+.box5 h3 {
+  font-size: 30px;
+  position: relative;
+  top: 110px;
+}
+.box5 span {
+  color: green;
+}
+.box5 p {
+  position: relative;
+  top: 120px;
+  text-align: start;
+  color: #869ab8 !important;
+  font-size: 20px;
+}
+
+.box6 {
+  position: relative;
+  right: 10px;
+}
+.box6 .subbox1 {
+  height: 30px;
+  width: 150px;
+}
+.box6 .subbox1 i {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  position: relative;
+  left: 2px;
+  bottom: 2px;
+  background-color: #42ba96;
+  color: green;
+}
+.box6 .subbox1 span {
+  position: relative;
+  bottom: 5px;
+  left: 40px;
+  color: #42ba96 !important;
+}
+.box6 .subbox2 {
+  height: 30px;
+  width: 150px;
+  position: relative;
+  bottom: 30px;
+  left: 200px;
+}
+.box6 .subbox2 i {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  position: relative;
+  left: 2px;
+  bottom: 2px;
+  background-color: #42ba96;
+  color: green;
+}
+.box6 .subbox2 span {
+  position: relative;
+  bottom: 5px;
+  left: 40px;
+  color: #42ba96 !important;
+}
+.box6 .subbox3 {
+  height: 30px;
+  width: 150px;
+}
+.box6 .subbox3 i {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  position: relative;
+  left: 2px;
+  bottom: 2px;
+  background-color: #42ba96;
+  color: green;
+}
+.box6 .subbox3 span {
+  position: relative;
+  bottom: 5px;
+  left: 40px;
+  color: #42ba96 !important;
+}
+.box6 .subbox4 {
+  height: 30px;
+  width: 150px;
+  position: relative;
+  bottom: 30px;
+  left: 200px;
+}
+.box6 .subbox4 i {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  position: relative;
+  left: 2px;
+  bottom: 2px;
+  background-color: #42ba96;
+  color: green;
+}
+.box6 .subbox4 span {
+  position: relative;
+  bottom: 5px;
+  left: 40px;
+  color: #42ba96 !important;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .row .box6 .subbox1 {
+    width: 200px;
+  }
+  .row .box6 .subbox2 {
+    width: 200px;
+  }
+  .row .box6 .subbox3 {
+    width: 200px;
+  }
+  .row .box6 .subbox4 {
+    width: 200px;
+  }
+}
+.row .left2 h2 {
+  color: black;
+  font-size: 30px;
+}
+.row .left2 span {
+  color: blue;
+}
+.row .left2 h5 {
+  color: #869ab8 !important;
+  font-size: 22px;
+}
+.row .left2 .box2 {
+  position: relative;
+  right: 10px;
+}
+.row .left2 .box2 h4 {
+  position: relative;
+  left: 60px;
+  bottom: 60px;
+  font-size: 25px;
+}
+.row .left2 .box2 p {
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  font-size: 18px;
+}
+.row .left2 .box3 {
+  position: relative;
+  bottom: 20px;
+  right: 10px;
+}
+.row .left2 .box3 h4 {
+  position: relative;
+  left: 60px;
+  bottom: 60px;
+  font-size: 25px;
+}
+.row .left2 .box3 p {
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+  font-size: 18px;
+}
+.row .right2 img {
+  height: 600px;
+  width: 600px;
+  transform: rotateY(-35deg) rotateX(15deg);
+  position: relative;
+  left: 50px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+  }
+  .row .right2 img {
+    height: 50px;
+    width: 50px;
+  }
+}
+.heading h2 {
+  text-align: center;
+  color: var(--bs-body-color) !important;
+}
+.heading p {
+  text-align: center;
+  color: #869ab8;
+  font-size: 20px;
+}
+
+.container .row .secstion1 b {
+  font-size: 20px;
+  color: blue;
+}
+.container .row .secstion1 .paragraph {
+  height: 50px;
+  width: 180px;
+}
+.container .row .secstion1 .image {
+  height: 50px;
+  width: 150px;
+  position: relative;
+  right: 10px;
+}
+.container .row .secstion1 .image img {
+  padding-left: 7px;
+}
+.container .row .box2 {
+  position: relative;
+  right: 50px;
+}
+.container .row .box2 li {
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+.container .row .box2 li a {
+  color: #869ab8 !important;
+  font-size: 20px;
+}
+.container .row .box3 {
+  position: relative;
+  right: -10px;
+}
+.container .row .box3 li {
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+.container .row .box3 li a {
+  color: #869ab8 !important;
+  font-size: 20px;
+}
+.container .row .box4 {
+  position: relative;
+  right: -70px;
+}
+.container .row .box4 li {
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+.container .row .box4 li a {
+  color: #869ab8 !important;
+  font-size: 20px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container .row .container .row .box3 {
+    position: relative;
+    left: 30px;
+  }
+}/*# sourceMappingURL=mobilefreindly.css.map */

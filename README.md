@@ -1,2 +1,2 @@
-# secondwebsite_with_boostrape
- It is my second website
+# bootstrap_mobile_friendly_class
+ grid system build on this project
