@@ -48,4 +48,49 @@
 
 @media (min-width: 576px) and (max-width: 767px)
 {
+  .container-fluid{
+
+        .navbar-light{
+          .navbar-brand{
+                  position: relative;
+                  right: 20px;
+          }
+        }
+   
+    
+    .buttonbox{
+     position: relative;
+     right: 20px;
+     top: 10px;
+
+  }
+}
+}
+
+
+
+@media (min-width: 345px) and (max-width: 576px)
+{
+  .container-fluid{
+
+        .navbar-light{
+          .navbar-toggler{
+            position: relative;
+            left: 200px;
+          }
+
+          .navbar-brand{
+                  position: relative;
+                  right: 20px;
+          }
+        }
+   
+    
+    .buttonbox{
+     position: relative;
+     right: 20px;
+     top: 10px;
+
+  }
+}
 }

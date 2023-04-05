@@ -68,3 +68,15 @@
  }
 
 }
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .row {.left img {
+        height: 400px;
+        width: 500px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    }
+    }

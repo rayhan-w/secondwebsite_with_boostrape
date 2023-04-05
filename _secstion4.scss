@@ -64,26 +64,23 @@
             
         }
     }
+
+    
+
+
 }
+
 
 
 @media (min-width: 576px) and (max-width: 767px)
 {
-
-    
-    body{
-        overflow-x: hidden;
-        height: 100vh;
-        margin: 0;
-    }
-    .row{
-        .right2{
-
-            img{
-                height: 50px;
-                width: 50px;
+        .row{
+            .right2{
+                img{
+                   height: 500px;
+                   width: 500px;
+                   
+                }
             }
-
         }
-    }
 }

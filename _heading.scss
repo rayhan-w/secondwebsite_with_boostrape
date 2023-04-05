@@ -10,3 +10,12 @@
         font-size: 20px;
     }
 }
+
+@media (min-width: 345px) and (max-width: 575px){
+
+    .heading{
+        position: relative;
+        left: 160px;
+        top: 20px;
+    }
+}

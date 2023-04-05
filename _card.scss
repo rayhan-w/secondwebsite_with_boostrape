@@ -202,23 +202,19 @@
    @media (min-width: 576px) and (max-width: 767px){
    
    .row{
-   
-    .box6{
-        .subbox1{
-            width: 200px;
+        .card{
+                position: relative;
+                left: 40px;
         }
-
-        .subbox2{
-            width: 200px;
-        }
-
-        .subbox3{
-            width: 200px;
-        }
-
-        .subbox4{
-            width: 200px;
-        }
-    }
    }
 }
+
+@media (min-width: 345px) and (max-width: 576px){
+   
+    .row{
+         .card{
+                 position: relative;
+                 left: 60px;
+         }
+    }
+ }

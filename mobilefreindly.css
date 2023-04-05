@@ -46,15 +46,46 @@
     margin: 0;
   }
   .row .left img {
-    height: 231px;
-    width: 300px;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 60px;
   }
   .row .right .h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
   .row .right button {
     height: 60px;
-    width: 100px;
+    width: 200px;
+  }
+}
+@media (min-width: 345px) and (max-width: 575px) {
+  .row .left img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+  }
+  .row .right .h1 {
+    position: relative;
+    left: 120px;
+    font-size: 60px;
+  }
+  .row .right p {
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+  }
+  .row .right button {
+    position: relative;
+    left: 120px;
+  }
+  .row .right .btn-secondary {
+    position: relative;
+    top: 20px;
+    left: 110px;
   }
 }
 .row {
@@ -127,6 +158,15 @@
   color: #869ab8 !important;
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .row .left img {
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 60px;
+  }
+}
 .bg-light {
   background-color: white !important;
 }
@@ -169,6 +209,32 @@
   padding-left: 100px;
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .container-fluid .navbar-light .navbar-brand {
+    position: relative;
+    right: 20px;
+  }
+  .container-fluid .buttonbox {
+    position: relative;
+    right: 20px;
+    top: 10px;
+  }
+}
+@media (min-width: 345px) and (max-width: 576px) {
+  .container-fluid .navbar-light .navbar-toggler {
+    position: relative;
+    left: 200px;
+  }
+  .container-fluid .navbar-light .navbar-brand {
+    position: relative;
+    right: 20px;
+  }
+  .container-fluid .buttonbox {
+    position: relative;
+    right: 20px;
+    top: 10px;
+  }
+}
 .card {
   height: 650px;
   width: 410px;
@@ -324,17 +390,15 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .row .box6 .subbox1 {
-    width: 200px;
+  .row .card {
+    position: relative;
+    left: 40px;
   }
-  .row .box6 .subbox2 {
-    width: 200px;
-  }
-  .row .box6 .subbox3 {
-    width: 200px;
-  }
-  .row .box6 .subbox4 {
-    width: 200px;
+}
+@media (min-width: 345px) and (max-width: 576px) {
+  .row .card {
+    position: relative;
+    left: 60px;
   }
 }
 .row .left2 h2 {
@@ -390,14 +454,9 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  body {
-    overflow-x: hidden;
-    height: 100vh;
-    margin: 0;
-  }
   .row .right2 img {
-    height: 50px;
-    width: 50px;
+    height: 500px;
+    width: 500px;
   }
 }
 .heading h2 {
@@ -410,6 +469,13 @@
   font-size: 20px;
 }
 
+@media (min-width: 345px) and (max-width: 575px) {
+  .heading {
+    position: relative;
+    left: 160px;
+    top: 20px;
+  }
+}
 .container .row .secstion1 b {
   font-size: 20px;
   color: blue;
@@ -466,9 +532,32 @@
   color: #869ab8 !important;
   font-size: 20px;
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
-  .container .row .container .row .box3 {
+  .container .row .secstion1 {
     position: relative;
-    left: 30px;
+    right: 50px;
+  }
+  .container .row .box3 {
+    position: relative;
+    right: 50px;
+  }
+  .container .row .box4 {
+    position: relative;
+    right: 50px;
+  }
+}
+@media (min-width: 345px) and (max-width: 575px) {
+  .container .row .secstion1 {
+    position: relative;
+    right: 50px;
+  }
+  .container .row .box3 {
+    position: relative;
+    right: 50px;
+  }
+  .container .row .box4 {
+    position: relative;
+    right: 50px;
   }
 }/*# sourceMappingURL=mobilefreindly.css.map */
