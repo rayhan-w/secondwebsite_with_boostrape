@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .row {
   margin: 0 auto;
   margin-top: 10%;
@@ -61,6 +65,34 @@
   }
 }
 @media (min-width: 345px) and (max-width: 575px) {
+  .row .left img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+  }
+  .row .right .h1 {
+    position: relative;
+    left: 120px;
+    font-size: 60px;
+  }
+  .row .right p {
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+  }
+  .row .right button {
+    position: relative;
+    left: 120px;
+  }
+  .row .right .btn-secondary {
+    position: relative;
+    top: 20px;
+    left: 110px;
+  }
+}
+@media (min-width: 200px) and (max-width: 345px) {
   .row .left img {
     height: 300px;
     width: 400px;
@@ -224,6 +256,21 @@
   .container-fluid .navbar-light .navbar-toggler {
     position: relative;
     left: 200px;
+  }
+  .container-fluid .navbar-light .navbar-brand {
+    position: relative;
+    right: 20px;
+  }
+  .container-fluid .buttonbox {
+    position: relative;
+    right: 20px;
+    top: 10px;
+  }
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  .container-fluid .navbar-light .navbar-toggler {
+    position: relative;
+    left: 220px;
   }
   .container-fluid .navbar-light .navbar-brand {
     position: relative;
@@ -559,5 +606,14 @@
   .container .row .box4 {
     position: relative;
     right: 50px;
+  }
+}
+@media (max-width: 560px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 }/*# sourceMappingURL=mobilefreindly.css.map */

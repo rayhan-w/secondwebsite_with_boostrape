@@ -148,3 +148,57 @@ p{
         }
     }
 }
+
+
+@media (min-width: 200px) and (max-width: 345px){
+    .row{
+
+
+
+        .left{
+            img{
+                height: 300px;
+                width: 400px;
+                position: relative;
+                top: 70px;
+                left: 60px;
+            
+            }
+            }
+
+        .right{
+            .h1{
+               
+               position: relative;
+               left: 120px;
+                font-size: 60px;
+                
+
+                
+            }
+
+            p{
+                font-size: 30px;
+                position:relative;
+                left: 100px;
+
+            }
+
+            button{
+
+                position: relative;
+                
+                left: 120px;
+               
+               
+            }
+
+            .btn-secondary{
+                position: relative;
+                top: 20px;
+                left: 110px;
+            }
+
+        }
+    }
+}

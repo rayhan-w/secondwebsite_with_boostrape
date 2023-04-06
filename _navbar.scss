@@ -94,3 +94,30 @@
   }
 }
 }
+
+
+@media (min-width: 375px) and (max-width: 667px)
+{
+  .container-fluid{
+
+        .navbar-light{
+          .navbar-toggler{
+            position: relative;
+            left: 220px;
+          }
+
+          .navbar-brand{
+                  position: relative;
+                  right: 20px;
+          }
+        }
+   
+    
+    .buttonbox{
+     position: relative;
+     right: 20px;
+     top: 10px;
+
+  }
+}
+}
