@@ -11,11 +11,26 @@
     }
 }
 
-@media (min-width: 345px) and (max-width: 575px){
+@media (min-width: 375px) and (max-width: 667px){
 
     .heading{
         position: relative;
-        left: 160px;
+        left: 20px;
         top: 20px;
+
+        h2{
+            text-align: center;
+            color: var(--bs-body-color)!important;
+            font-size: 18px;
+        }
+    
+        p{
+            text-align: center;
+            color: #869ab8;
+            font-size: 15px;
+            position: relative;
+            right: 10px;
+
+        }
     }
 }

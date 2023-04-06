@@ -209,12 +209,211 @@
    }
 }
 
-@media (min-width: 345px) and (max-width: 576px){
+@media (min-width: 375px) and (max-width: 667px){
    
     .row{
-         .card{
+         .card{     
+
+            height: 600px;
+            width: 310px;
+            border-radius: 5px;
                  position: relative;
-                 left: 60px;
-         }
+                 right: 60px;
+
+                 
+          img{
+                 height: 284px;
+                 width: 310px;
+
+              }
+
+              .card-body{
+
+                label{
+                    position: relative;
+                    top: 10px;
+                   
+                
+                }
+                input[type="text"],
+                input[type="password"]{
+                    height: 30px;
+                    width: 240px;
+                } 
+                
+                
+                     }
+
+
+                     
+    .buttonbox{
+        position: relative;
+        top: 10px;
+        right: 100px;
+         .btn-primary{
+            width: 240px;
+            height: 50px;
+            background-color: #42ba96;
+            border: #42ba96;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            &:hover{
+                background-color: green;
+            }
+
     }
- }
+}
+}
+    }
+
+
+    
+.box5{
+    h3{
+        font-size: 30px;
+        position: relative;
+        top: 110px;
+        right: 50px;
+    }
+    span{
+        color: green;
+    }
+
+    p{
+        position: relative;
+        top: 120px;
+        right: 50px;
+        text-align: start;
+      color: #869ab8!important;
+     font-size: 15px;
+}
+
+}
+
+
+.box6{
+    position: relative;
+    right: 60px;
+    
+   .subbox1{
+    height: 30px;
+    width:150px;
+    position: relative;
+    right: 10px;
+   
+   
+ 
+   
+        i{
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            font-size: 15px;
+            position: relative;
+            left: 2px;
+            bottom: 2px;
+            background-color: #42ba96;
+            color: green;
+
+
+        }
+
+        span{
+            position: relative;
+            bottom: 5px;
+            left: 20px;
+            color: #42ba96!important;
+        }
+    }
+
+
+    .subbox2{
+        height: 30px;
+        width:150px;
+        position: relative;
+        bottom: 30px;
+        left: 175px;
+       
+            i{
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+                font-size: 15px;
+                position: relative;
+                left: 2px;
+                bottom: 2px;
+                background-color: #42ba96;
+                color: green;
+    
+    
+            }
+    
+            span{
+                position: relative;
+                bottom: 5px;
+                left: 20px;
+                color: #42ba96!important;
+            }
+        }
+
+        .subbox3{
+            height: 30px;
+            width:150px;
+            position: relative;
+            right: 10px;
+           
+           
+           
+                i{
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 10px;
+                    font-size: 15px;
+                    position: relative;
+                    left: 2px;
+                    bottom: 2px;
+                    background-color: #42ba96;
+                    color: green;
+        
+        
+                }
+        
+                span{
+                    position: relative;
+                    bottom: 5px;
+                    left: 20px;
+                    color: #42ba96!important;
+                }
+            }
+
+            .subbox4{
+                height: 30px;
+                width:150px;
+                position: relative;
+                bottom: 30px;
+                left: 175px;
+               
+                    i{
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 10px;
+                        font-size: 15px;
+                        position: relative;
+                        left: 2px;
+                        bottom: 2px;
+                        background-color: #42ba96;
+                        color: green;
+            
+            
+                    }
+            
+                    span{
+                        position: relative;
+                        bottom: 5px;
+                        left: 20px;
+                        color: #42ba96!important;
+                    }
+                }
+}
+}

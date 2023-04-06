@@ -70,13 +70,34 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 767px){
-    .row {.left img {
-        height: 400px;
-        width: 500px;
-        position: relative;
-        top: 50px;
-        left: 60px;
-    }
-    }
-    }
+@media (min-width: 375px) and (max-width: 667px){
+
+      .row{
+         .box1{
+            position: relative;
+            right: 67px;
+            h4{
+               font-size: 20px;
+            }
+         }
+
+         .box2{
+            position: relative;
+            right: 67px;
+
+            h4{
+               font-size: 20px;
+            }
+         }
+
+         .box3{
+            position: relative;
+            right: 67px;
+
+            h4{
+               font-size: 20px;
+            }
+         }
+      }
+   }
+    

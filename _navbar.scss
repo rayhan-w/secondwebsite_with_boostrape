@@ -54,9 +54,18 @@
           .navbar-brand{
                   position: relative;
                   right: 20px;
+
+                
           }
         }
-   
+
+        .navbar-expand-lg{
+          .navbar-nav{
+            .nav-link {
+              padding-left: 0px;
+            }
+          }
+        }
     
     .buttonbox{
      position: relative;
@@ -69,31 +78,6 @@
 
 
 
-@media (min-width: 345px) and (max-width: 576px)
-{
-  .container-fluid{
-
-        .navbar-light{
-          .navbar-toggler{
-            position: relative;
-            left: 200px;
-          }
-
-          .navbar-brand{
-                  position: relative;
-                  right: 20px;
-          }
-        }
-   
-    
-    .buttonbox{
-     position: relative;
-     right: 20px;
-     top: 10px;
-
-  }
-}
-}
 
 
 @media (min-width: 375px) and (max-width: 667px)
@@ -102,20 +86,31 @@
 
         .navbar-light{
           .navbar-toggler{
+            
             position: relative;
-            left: 220px;
+            right: -25px;
+            top: 10px;
           }
 
           .navbar-brand{
                   position: relative;
-                  right: 20px;
+                  right: 100px;
+          }
+        }
+
+        
+        .navbar-expand-lg{
+          .navbar-nav{
+            .nav-link {
+              padding-left: 0px;
+            }
           }
         }
    
     
     .buttonbox{
      position: relative;
-     right: 20px;
+     right: 100px;
      top: 10px;
 
   }

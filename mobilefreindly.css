@@ -64,32 +64,40 @@ body {
     width: 200px;
   }
 }
-@media (min-width: 345px) and (max-width: 575px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .row .left img {
     height: 300px;
     width: 400px;
     position: relative;
-    top: 70px;
-    left: 60px;
+    top: 80px;
+    right: 70px;
   }
   .row .right .h1 {
     position: relative;
-    left: 120px;
-    font-size: 60px;
+    left: 10px;
+    font-size: 30px;
   }
   .row .right p {
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
-    left: 100px;
+    left: 10px;
   }
   .row .right button {
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
     position: relative;
-    left: 120px;
+    left: 40px;
+  }
+  .row .right button i {
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
   }
   .row .right .btn-secondary {
     position: relative;
     top: 20px;
-    left: 110px;
+    left: 30px;
   }
 }
 @media (min-width: 200px) and (max-width: 345px) {
@@ -98,7 +106,7 @@ body {
     width: 400px;
     position: relative;
     top: 70px;
-    left: 60px;
+    right: 80px;
   }
   .row .right .h1 {
     position: relative;
@@ -190,13 +198,27 @@ body {
   color: #869ab8 !important;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-  .row .left img {
-    height: 400px;
-    width: 500px;
+@media (min-width: 375px) and (max-width: 667px) {
+  .row .box1 {
     position: relative;
-    top: 50px;
-    left: 60px;
+    right: 67px;
+  }
+  .row .box1 h4 {
+    font-size: 20px;
+  }
+  .row .box2 {
+    position: relative;
+    right: 67px;
+  }
+  .row .box2 h4 {
+    font-size: 20px;
+  }
+  .row .box3 {
+    position: relative;
+    right: 67px;
+  }
+  .row .box3 h4 {
+    font-size: 20px;
   }
 }
 .bg-light {
@@ -246,20 +268,8 @@ body {
     position: relative;
     right: 20px;
   }
-  .container-fluid .buttonbox {
-    position: relative;
-    right: 20px;
-    top: 10px;
-  }
-}
-@media (min-width: 345px) and (max-width: 576px) {
-  .container-fluid .navbar-light .navbar-toggler {
-    position: relative;
-    left: 200px;
-  }
-  .container-fluid .navbar-light .navbar-brand {
-    position: relative;
-    right: 20px;
+  .container-fluid .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px;
   }
   .container-fluid .buttonbox {
     position: relative;
@@ -270,15 +280,19 @@ body {
 @media (min-width: 375px) and (max-width: 667px) {
   .container-fluid .navbar-light .navbar-toggler {
     position: relative;
-    left: 220px;
+    right: -25px;
+    top: 10px;
   }
   .container-fluid .navbar-light .navbar-brand {
     position: relative;
-    right: 20px;
+    right: 100px;
+  }
+  .container-fluid .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0px;
   }
   .container-fluid .buttonbox {
     position: relative;
-    right: 20px;
+    right: 100px;
     top: 10px;
   }
 }
@@ -442,10 +456,158 @@ body {
     left: 40px;
   }
 }
-@media (min-width: 345px) and (max-width: 576px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .row .card {
+    height: 600px;
+    width: 310px;
+    border-radius: 5px;
     position: relative;
-    left: 60px;
+    right: 60px;
+  }
+  .row .card img {
+    height: 284px;
+    width: 310px;
+  }
+  .row .card .card-body label {
+    position: relative;
+    top: 10px;
+  }
+  .row .card .card-body input[type=text],
+  .row .card .card-body input[type=password] {
+    height: 30px;
+    width: 240px;
+  }
+  .row .card .buttonbox {
+    position: relative;
+    top: 10px;
+    right: 100px;
+  }
+  .row .card .buttonbox .btn-primary {
+    width: 240px;
+    height: 50px;
+    background-color: #42ba96;
+    border: #42ba96;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .row .card .buttonbox .btn-primary:hover {
+    background-color: green;
+  }
+  .box5 h3 {
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+    right: 50px;
+  }
+  .box5 span {
+    color: green;
+  }
+  .box5 p {
+    position: relative;
+    top: 120px;
+    right: 50px;
+    text-align: start;
+    color: #869ab8 !important;
+    font-size: 15px;
+  }
+  .box6 {
+    position: relative;
+    right: 60px;
+  }
+  .box6 .subbox1 {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    right: 10px;
+  }
+  .box6 .subbox1 i {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    background-color: #42ba96;
+    color: green;
+  }
+  .box6 .subbox1 span {
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    color: #42ba96 !important;
+  }
+  .box6 .subbox2 {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+    left: 175px;
+  }
+  .box6 .subbox2 i {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    background-color: #42ba96;
+    color: green;
+  }
+  .box6 .subbox2 span {
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    color: #42ba96 !important;
+  }
+  .box6 .subbox3 {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    right: 10px;
+  }
+  .box6 .subbox3 i {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    background-color: #42ba96;
+    color: green;
+  }
+  .box6 .subbox3 span {
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    color: #42ba96 !important;
+  }
+  .box6 .subbox4 {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+    left: 175px;
+  }
+  .box6 .subbox4 i {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    background-color: #42ba96;
+    color: green;
+  }
+  .box6 .subbox4 span {
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    color: #42ba96 !important;
   }
 }
 .row .left2 h2 {
@@ -506,6 +668,61 @@ body {
     width: 500px;
   }
 }
+@media (min-width: 375px) and (max-width: 667px) {
+  .row .left2 .box2 {
+    position: relative;
+    right: 60px;
+  }
+  .row .left2 .box2 i {
+    position: relative;
+    bottom: 110px;
+    font-size: 22px;
+  }
+  .row .left2 .box2 h4 {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    font-size: 18px;
+  }
+  .row .left2 .box2 p {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    font-size: 15px;
+  }
+  .row .left2 .box3 {
+    position: relative;
+    right: 60px;
+    bottom: 50px;
+  }
+  .row .left2 .box3 i {
+    position: relative;
+    bottom: 110px;
+    font-size: 22px;
+  }
+  .row .left2 .box3 h4 {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    font-size: 18px;
+  }
+  .row .left2 .box3 p {
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    font-size: 15px;
+  }
+  .row .right2 {
+    position: relative;
+    right: 120px;
+  }
+  .row .right2 img {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    transform: rotateY(-40deg) rotateX(15deg);
+  }
+}
 .heading h2 {
   text-align: center;
   color: var(--bs-body-color) !important;
@@ -516,11 +733,23 @@ body {
   font-size: 20px;
 }
 
-@media (min-width: 345px) and (max-width: 575px) {
+@media (min-width: 375px) and (max-width: 667px) {
   .heading {
     position: relative;
-    left: 160px;
+    left: 20px;
     top: 20px;
+  }
+  .heading h2 {
+    text-align: center;
+    color: var(--bs-body-color) !important;
+    font-size: 18px;
+  }
+  .heading p {
+    text-align: center;
+    color: #869ab8;
+    font-size: 15px;
+    position: relative;
+    right: 10px;
   }
 }
 .container .row .secstion1 b {
@@ -606,6 +835,12 @@ body {
   .container .row .box4 {
     position: relative;
     right: 50px;
+  }
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  .container .carousel .slide {
+    position: relative;
+    left: 10px;
   }
 }
 @media (max-width: 560px) {
